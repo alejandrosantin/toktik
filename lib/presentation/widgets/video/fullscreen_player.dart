@@ -46,9 +46,9 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
           onTap: () {
             if (controller.value.isPlaying) {
               controller.pause();
-            } else {
-              controller.play();
+              return;
             }
+            controller.play();
           },
           child: AspectRatio(
             aspectRatio: controller.value.aspectRatio,
