@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:toktik/domain/entities/video_post.dart';
 
 class FullScreenPlayer extends StatelessWidget {
   final String videoUrl;
